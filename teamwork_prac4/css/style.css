@@ -1,0 +1,41 @@
+.headings{
+  margin: 0px;
+  border: 0px;
+
+}
+.headings h1{
+  font-size: 20px;
+  font-family: serif;
+  font-weight: bold;
+
+}
+.headings h2{
+  font-size: 18px;
+  font-family: serif;
+  font-weight: bold;
+
+}
+.headings h3{
+  font-size: 15px;
+  font-family: serif;
+  font-weight: bold;
+
+}
+.headings h4{
+  font-size: 12px;
+  font-family: serif;
+  font-weight: bold;
+
+}
+.headings h5{
+  font-size: 10px;
+  font-family: serif;
+  font-weight: bold;
+
+}
+.paragraph{
+
+}
+.list{
+
+}
