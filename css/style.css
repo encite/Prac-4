@@ -98,3 +98,17 @@ h5.animation-tilte:hover{
   background: #A52A2A;
 
 }
+
+.tables{
+  text-align: center;
+  font-family: sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  height: 50px;
+}
+
+.spacing{
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+}
