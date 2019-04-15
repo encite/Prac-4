@@ -91,7 +91,7 @@ body{
 .box .content a{
   position: static;
   margin: 20px;
-  padding: 48px;
+  padding: 10px;
   text-decoration: none;
   border: 1px solid black;
   display: inline-block;
