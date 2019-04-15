@@ -1,41 +1,104 @@
-.headings{
-  margin: 0px;
-  border: 0px;
-
-}
-.headings h1{
-  font-size: 20px;
-  font-family: serif;
+h1.heading{
+  height: 50px;
+  background: #00b1ffe8;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  display: block;
+  font-size: 1.6em;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-weight: bold;
-
+  border-style: solid;
 }
-.headings h2{
-  font-size: 18px;
-  font-family: serif;
+h2.sub-heading{
+  padding-top: 70px;
   font-weight: bold;
+  height: 40px;
+  width: 100%;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 5px;
 
 }
-.headings h3{
-  font-size: 15px;
-  font-family: serif;
+h3.card-title{
+  display: block;
+  font-size: 1.17em;
+  margin: 0 0 10px;
+  padding: 0;
   font-weight: bold;
+  color: #171717;
+  text-align: center;
+
 
 }
-.headings h4{
+h4.content-title{
   font-size: 12px;
   font-family: serif;
   font-weight: bold;
 
 }
-.headings h5{
-  font-size: 10px;
-  font-family: serif;
+h5.animation-title{
+  position: absolute;
+  right: 20px;
+  margin: 0;
+  padding:0;
+  color: rgba(40, 39, 39, 0.06);
+  transition: 0.5s;
+  display: block;
+  font-size: 0.83em;
+  height: 30px;
+}
+}
+h5.animation-tilte:hover{
+  top: -100px;
+}
+
+
+.paragraph p{
+  margin: 0;
+  padding: 15px;
+  color: #55575a;
+  font-size: 16px;
+  text-align: center;
   font-weight: bold;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.links a{
+  position: static;
+  margin: 40px;
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid black;
+  display: inline-block;
+  color: blue;
+  transition: 0.5s;
+  transform: translateY(-50px);
+  opacity: 0;
+  visibility: hidden;
+}
+.links:hover a{
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+}
+.links a:hover{
+  color: #fff;
+  background: #A52A2A;
 
 }
-.paragraph{
 
-}
 .list{
 
 }

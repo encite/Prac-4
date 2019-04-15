@@ -5,7 +5,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #cddc3940;
+  background: #fbfcf040;
   font-family: 'Poppins', sans-serif;
 
 }
@@ -22,7 +22,7 @@ body{
 .container .box{
   position: relative;
   height: 400px;
-  background: #060c21;
+  background: #4aacb0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,15 +40,6 @@ body{
   z-index: -1;
 }
 
-.container .box:nth-child(1):before{
-  background: linear-gradient(315deg,#89ff00,#00bcd4);
-}
-.container .box:nth-child(2):before{
-  background: linear-gradient(315deg,#89ff00,#00bcd4);
-}
-.container .box:nth-child(3):before{
-  background: linear-gradient(315deg,#89ff00,#00bcd4);
-}
 .container .box::after{
   content: '';
   position: absolute;
@@ -56,7 +47,7 @@ body{
   left: 0;
   width: 50%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(230, 242, 242, 0.17);
   pointer-events: none;
 }
 .box .content{
@@ -72,7 +63,7 @@ body{
   margin: 0;
   padding:0;
   font-size: 10em;
-  color: rgba(255,255,255,.05);
+  color: rgba(40, 39, 39, 0.06);
   transition: 0.5s;
 }
 .box:hover .content h2{
@@ -82,18 +73,19 @@ body{
 .box .content h3{
   margin: 0 0 10px;
   padding: 0;
-  font-size: 20px;
+  font-size: 1.17em;
   font-weight: bold;
-  color: #fff;
+  color: #171717;
   text-align: center;
 
 }
 .box .content p{
   margin: 0;
   padding: 10px;
-  color: #fff;
+  color: #ecf3fa;
   font-size: 16px;
   text-align: center;
+  font-weight: bold;
 
 }
 .box .content a{
@@ -101,9 +93,9 @@ body{
   margin: 20px;
   padding: 10px;
   text-decoration: none;
-  border: 1px solid #fff;
+  border: 1px solid black;
   display: inline-block;
-  color: #fff;
+  color: blue;
   transition: 0.5s;
   transform: translateY(-50px);
   opacity: 0;
@@ -116,7 +108,7 @@ body{
   text-align: center;
 }
 .box .content a:hover{
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #A52A2A;
 
 }
