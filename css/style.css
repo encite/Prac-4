@@ -109,17 +109,6 @@ h5.animation-tilte:hover{
   table-layout: fixed;   
 }
 
-th{
-  letter-spacing: 2px;
-}
-
-td{
-  letter-spacing: 1px;
-}
-
-tbody{
-  text-align: center;
-}
 
 .spacing{
   letter-spacing: 1px;
